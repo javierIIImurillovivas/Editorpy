@@ -59,8 +59,6 @@ def guardar_como():
 #Configuracion de la Raiz
 root = Tk()
 root.title("Mi Editor")
-root.iconbitmap('marina_by.ico')
-
 
 #Menu Superir
 
