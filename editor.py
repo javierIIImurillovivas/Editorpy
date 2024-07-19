@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import filedialog as FileDialog
 from io import open
 
+
 ruta = "" #La utilizaremos para almacenar la ruta de un fichero
 
 def nuevo():
@@ -10,6 +11,7 @@ def nuevo():
     ruta = ""
     texto.delete(1.0, "end")
     root.title("Mi editor")
+    root.iconbitmap('fjmurillov.ico')
 
 
 def abrir():
@@ -58,7 +60,6 @@ def guardar_como():
 #Configuracion de la Raiz
 root = Tk()
 root.title("Mi Editor")
-
 
 #Menu Superir
 
