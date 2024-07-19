@@ -11,7 +11,7 @@ def nuevo():
     ruta = ""
     texto.delete(1.0, "end")
     root.title("Mi editor")
-    root.iconbitmap('marina_bay.ico')
+    root.iconbitmap('fjmurillov.ico')
 
 
 def abrir():
