@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import filedialog as FileDialog
 from io import open
 
+
 ruta = "" #La utilizaremos para almacenar la ruta de un fichero
 
 def nuevo():
@@ -58,6 +59,7 @@ def guardar_como():
 #Configuracion de la Raiz
 root = Tk()
 root.title("Mi Editor")
+root.iconbitmap('marina_by.ico')
 
 
 #Menu Superir
