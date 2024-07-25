@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import filedialog as FileDialog
 from io import open
 
+
 ruta = "" #La utilizaremos para almacenar la ruta de un fichero
 
 def nuevo():
